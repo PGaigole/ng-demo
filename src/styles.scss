@@ -3,11 +3,5 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-// Reset styles
-html {
-  margin: 30px;
-}
-body {
-  margin: 0 auto;
-  max-width: 1440px;
-}
+@import "./app/styles/utilities/fonts";
+@import "./app/styles/utilities/reset";

@@ -1,0 +1,11 @@
+$max-width: 1440px;
+
+html {
+  box-sizing: border-box;
+  margin: 30px;
+}
+body {
+  margin: 0 auto;
+  max-width: $max-width;
+  font-family: $arial;
+}
